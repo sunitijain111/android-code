@@ -1,4 +1,4 @@
-package com.example.lab3;
+package com.example.lab3b;
 
 import androidx.appcompat.app.AppCompatActivity;
 
