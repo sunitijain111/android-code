@@ -87,4 +87,67 @@
             android:background="#F26B38"
             />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Table Layout"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 1 "
+                android:textSize="25sp"
+                android:layout_column="1"
+                android:background="#feb743"
+                />
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 2 "
+                android:textSize="25sp"
+                android:layout_column="2"
+                android:background="#cae63b"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 3 "
+                android:textSize="25sp"
+                android:layout_column="1"
+                android:background="#9c79b4"/>
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 4 "
+                android:textSize="25sp"
+                android:layout_column="2"
+                android:background= " 	#4ad2d6"/>
+        </TableRow>
+
+    </TableLayout>
+
 </LinearLayout>
