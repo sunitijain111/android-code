@@ -35,8 +35,8 @@ private FirebaseAuth mAuth;
 
         email= findViewById(R.id.email_reg);
         pass= findViewById(R.id.password_reg);
-         btnreg= findViewById(R.id.btn_reg);
-         signin= findViewById(R.id.signin_text);
+        btnreg= findViewById(R.id.btn_reg);
+        signin= findViewById(R.id.signin_text);
 
         btnreg.setOnClickListener(new View.OnClickListener() {
             @Override
