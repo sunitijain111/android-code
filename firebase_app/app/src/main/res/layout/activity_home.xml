@@ -72,6 +72,26 @@
                 android:id="@+id/save"
                 ></Button>
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bk"
+                android:layout_margin="10dp"
+                android:text ="View"
+                android:padding="6dp"
+
+                android:layout_gravity="center"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@android:color/white"
+                android:id="@+id/view"
+                ></Button>
+            <ListView
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ed_design"
+                android:id="@+id/list_of_items"
+                />
         </LinearLayout>
 
     </ScrollView>

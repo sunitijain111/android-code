@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_data"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back_design"
+
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text =" back"
+                android:padding="6dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:id="@+id/back_to_home"
+                android:background="@drawable/login_bk"
+                />
+            <ListView
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ed_design"
+                android:id="@+id/list_of_items"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>
