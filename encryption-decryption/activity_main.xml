@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:orientation="vertical"
+android:gravity="center"
+    >
+
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="6dp"
+    android:layout_marginTop="20dp"
+    android:textAppearance="?android:textAppearanceMedium"
+    android:id="@+id/enter"
+    android:textColor="@android:color/black"
+    android:hint="enter text to crypt"
+
+
+    />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text =" encrypt"
+    android:padding="6dp"
+    android:layout_margin="10dp"
+    android:textAppearance="?android:textAppearanceMedium"
+    android:textColor="@android:color/white"
+    android:id="@+id/push"
+    android:background="#000000"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="6dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:id="@+id/encrypted"
+        android:textColor="@android:color/black"
+
+        android:hint="encrypted text">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="6dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:id="@+id/decrypted"
+        android:textColor="@android:color/black"
+        android:hint="decrypted text">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text =" push me to see secret key! shhh!!!! "
+        android:padding="6dp"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:id="@+id/secretkeypushme"
+        android:background="#000000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="6dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:id="@+id/secretkey"
+        android:textColor="@android:color/black"
+
+        android:hint="super secret key! ">
+
+    </TextView>
+
+
+</LinearLayout>
