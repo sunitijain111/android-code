@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <TextView android:text="MARVEL-LOUS BROWSER"
+        android:textColor="#ffffff"
+        android:background="#F80606"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview1"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="enter url"
+        android:focusable="true"
+        android:textColorHint="#aaaaaa"
+        android:layout_below="@+id/textview1"
+        />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="GO"
+        android:id="@+id/button"
+android:layout_alignRight="@+id/editText"
+        android:layout_below="@+id/textview1"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="prev"
+        android:id="@+id/button_back"
+        android:layout_below="@+id/textview1"
+        android:layout_toRightOf="@id/button"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="frwd"
+        android:id="@+id/button_frwd"
+        android:layout_below="@+id/textview1"
+        android:layout_toRightOf="@id/button_back"
+        tools:ignore="UnknownId" />
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
